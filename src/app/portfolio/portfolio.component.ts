@@ -12,5 +12,12 @@ export class PortfolioComponent {
   color:string = 'navy-text-color';
   @Input()
   bgcolor:string = 'navy-bg-color';
+
+  imgURL:string = '';
+
+  getURL(url:string):void{
+    this.imgURL = url;
+    console.log(url)
+  }
 }
 

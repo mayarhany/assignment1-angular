@@ -17,10 +17,3 @@ button, button:hover{
     color: #fff;
     width: 150px;
 }
-
-/* input:not(:placeholder-shown) + label{
-    top:0;
-} */
-/* form .input_{
-    outline:1px solid red;
-} */

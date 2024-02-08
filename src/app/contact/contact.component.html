@@ -7,33 +7,41 @@
     ></app-staricon>
     <div class="">
       <form class="my-5 d-flex flex-column">
-        <label for="userName" class="ps-2 top_"
+        <label [style.top]="userName != '' ? 0 : 50" for="userName" class="ps-2"
           >userName:</label
         >
         <input
-          class="form-control py-3 input_"
+        [(ngModel)]="userName"
+          class="form-control py-3"
           id="userName"
+          name="userName"
           type="text"
           placeholder="userName"
         />
-        <label for="userAge" class="ps-2 pt-2 top_">userAge:</label>
+        <label [style.top]="userName != '' ? 0 : 50" for="userAge" class="ps-2 pt-2">userAge:</label>
         <input
-          class="form-control py-3 input_"
+        [(ngModel)]="userAge"
+          class="form-control py-3"
           id="userAge"
+          name="userAge"
           type="number"
           placeholder="userAge"
         />
-        <label for="userEmail" class="ps-2 pt-2 top_">userEmail:</label>
+        <label [style.top]="userName != '' ? 0 : 50" for="userEmail" class="ps-2 pt-2">userEmail:</label>
         <input
-          class="form-control py-3 input_"
+        [(ngModel)]="userEmail"
+          class="form-control py-3"
           id="userEmail"
+          name="userEmail"
           type="email"
           placeholder="userEmail"
         />
-        <label for="userPassword" class="ps-2 pt-2 top_">userPassword:</label>
+        <label [style.top]="userName != '' ? 0 : 50" for="userPassword" class="ps-2 pt-2 ">userPassword:</label>
         <input
-          class="form-control py-3 input_"
+        [(ngModel)]="userPassword"
+          class="form-control py-3"
           id="userPassword"
+          name="userPassword"
           type="password"
           placeholder="userPassword"
         />

@@ -13,5 +13,12 @@ export class ContactComponent {
   @Input()
   bgcolor:string = 'navy-bg-color';
 
+
+  // top:string = '50px';
+
+  userName:string = '';
+  userAge:string ='';
+  userEmail:string = '';
+  userPassword:string = '';
 }
 
