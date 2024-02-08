@@ -1,0 +1,9 @@
+/* ~ Utelities */
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #fff;
+}
+

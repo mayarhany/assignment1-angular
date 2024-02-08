@@ -1,0 +1,44 @@
+<section class="d-flex justify-content-center align-items-center bg-white">
+  <div>
+    <app-staricon
+      [headingFromSection]="heading"
+      [colorFromSection]="color"
+      [bgColorFromSection]="bgcolor"
+    ></app-staricon>
+    <div class="">
+      <form class="my-5 d-flex flex-column">
+        <label for="userName" class="ps-2 top_"
+          >userName:</label
+        >
+        <input
+          class="form-control py-3 input_"
+          id="userName"
+          type="text"
+          placeholder="userName"
+        />
+        <label for="userAge" class="ps-2 pt-2 top_">userAge:</label>
+        <input
+          class="form-control py-3 input_"
+          id="userAge"
+          type="number"
+          placeholder="userAge"
+        />
+        <label for="userEmail" class="ps-2 pt-2 top_">userEmail:</label>
+        <input
+          class="form-control py-3 input_"
+          id="userEmail"
+          type="email"
+          placeholder="userEmail"
+        />
+        <label for="userPassword" class="ps-2 pt-2 top_">userPassword:</label>
+        <input
+          class="form-control py-3 input_"
+          id="userPassword"
+          type="password"
+          placeholder="userPassword"
+        />
+        <button class="my-2 btn" type="button">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>

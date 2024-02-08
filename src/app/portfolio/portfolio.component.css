@@ -1,0 +1,28 @@
+/* *Utilities */
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.layer{
+    background-color: #1abc9ce6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.img:hover .layer{
+    opacity: 1;
+}
+.model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}

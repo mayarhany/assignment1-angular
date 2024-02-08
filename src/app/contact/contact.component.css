@@ -1,0 +1,26 @@
+form label{
+    color: #1abc9c;
+}
+input{
+    border: 0;
+    border-bottom: 1px solid #dee2e6;
+    z-index: 1;
+}
+label{
+    position: relative;
+    top: 50px;
+    left: 0;
+    transition: top 0.5s;
+}
+button, button:hover{
+    background-color: #1abc9c;
+    color: #fff;
+    width: 150px;
+}
+
+/* input:not(:placeholder-shown) + label{
+    top:0;
+} */
+/* form .input_{
+    outline:1px solid red;
+} */
